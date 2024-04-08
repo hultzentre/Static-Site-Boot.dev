@@ -5,4 +5,5 @@ def main():
     result = TextNode('This is a string', "Bold", 'https://www.website.com')
     print(result.repr())
 
-main()
+if __name__ == "__main__":
+    main()
